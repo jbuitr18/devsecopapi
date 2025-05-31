@@ -25,7 +25,7 @@ if (!isset($_SESSION['usuario'])) {
         die("Conexión fallida: " . mysqli_connect_error());
     }
 
-    // Agregar usuario
+    // Agregar usuario del formulario
     if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['add'])) {
         $nombre = mysqli_real_escape_string($conn, $_POST['nombre']);
         $cedula = mysqli_real_escape_string($conn, $_POST['cedula']);
