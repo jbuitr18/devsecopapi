@@ -1,0 +1,1 @@
+[31mERROR  [0m Status: failed to get image devsecopapi-www: failed to pull image devsecopapi-www:latest: GET https://index.docker.io/v2/library/devsecopapi-www/manifests/latest: UNAUTHORIZED: authentication required; [map[Action:pull Class: Name:library/devsecopapi-www Type:repository]], Code: 1 

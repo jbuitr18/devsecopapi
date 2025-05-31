@@ -1,0 +1,1 @@
+[31mERROR  [0m Status: failed to get image db: failed to pull image db:latest: GET https://index.docker.io/v2/library/db/manifests/latest: UNAUTHORIZED: authentication required; [map[Action:pull Class: Name:library/db Type:repository]], Code: 1 
