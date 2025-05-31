@@ -44,7 +44,7 @@ if (!isset($_POST['terminos'])) {
     }
 }
 ?>
-<!-- pagina de login -->
+<!-- pagina de login de usuario-->
 <!DOCTYPE html>
 <html>
 <head>
