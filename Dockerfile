@@ -1,4 +1,4 @@
-FROM php:8.0.0-apache
+FROM php:8.3.22-apache
 ARG DEBIAN_FRONTEND=noninteractive
 RUN docker-php-ext-install mysqli
 RUN apt update \
